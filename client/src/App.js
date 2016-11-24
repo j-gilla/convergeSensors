@@ -1,17 +1,27 @@
-import React, { Component } from 'react';
-import './App.css';
+ import React, { Component } from "react";
+ import Office from "./Office.js";
+ import External from "./External.js";
+ import CommonRoom from "./CommonRoom.js";
 
-class App extends Component {
+class App extends React.Component {
+  // constructor(props)
+  // super(props)
+  // getintialState: function(){
+  //   console.log("initial state");
+  //   return {
+  //     loaded: false
+  //   }
+  // },
+  // componentDidMpoint:
+
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-
-          <h2>Welcome to Converge</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p className="App">App</p>
+        <CommonRoom />
+        <External />
+        <Office />
       </div>
     );
   }
