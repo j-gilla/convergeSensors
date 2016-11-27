@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import alldata from "./utils/alldata.js";
 
 class Office extends Component {
   render() {

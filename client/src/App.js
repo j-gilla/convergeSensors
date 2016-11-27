@@ -4,15 +4,7 @@
  import CommonRoom from "./CommonRoom.js";
 
 class App extends React.Component {
-  // constructor(props)
-  // super(props)
-  // getintialState: function(){
-  //   console.log("initial state");
-  //   return {
-  //     loaded: false
-  //   }
-  // },
-  // componentDidMpoint:
+
 
 
   render() {
