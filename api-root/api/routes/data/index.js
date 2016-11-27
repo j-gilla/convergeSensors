@@ -3,6 +3,6 @@ const all = require("./all");
 const single = require("./single");
 
 data.get("/", all);
-data.get("/sensors/:sensorId", single);
+data.get("/sensor/:sensorId", single);
 
 module.exports = data;
